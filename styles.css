@@ -17,7 +17,10 @@ body,html{
     border-radius: 10px;
     text-align: center;
 }
-
+.otp-input:not(:placeholder-shown){
+    box-shadow: 0 2px 11px 0px gray;
+    border: 2px solid #bcd6ed;
+}
 .otp-input{
     width: 64px;
     height: 100px;
