@@ -25,6 +25,12 @@ body,html{
     text-align: center;
     margin:0 4px;
 }
+.otp-input:focus{
+    outline: none !important;
+    border: 2px solid #9bd8f5;
+
+}
+
 .foot-note{
     background-color: #eeeeee;
     color: #999;
